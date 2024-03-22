@@ -1,7 +1,7 @@
 # probinc
 import telebot
-from extensions import keys, TOKEN
-from utilita import ConvertionException, CryptoConverter
+from chopi import keys, TOKEN
+from extensions import ConvertionException, CryptoConverter
 
 bot = telebot.TeleBot(TOKEN)
 
